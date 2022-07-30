@@ -45,4 +45,8 @@ brew install --cask lens
 # HTTP request client
 brew install --cask postman
 
+# Java SDK manager
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 ### </Development>
