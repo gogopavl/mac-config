@@ -49,4 +49,7 @@ brew install --cask postman
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
+# Node manager
+brew install nvm
+
 ### </Development>
