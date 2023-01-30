@@ -17,6 +17,9 @@ brew install --cask maccy
 # Spotlight for the macOS user interface
 https://www.homerow.app
 
+# Window & tab switching
+brew install --cask alt-tab
+
 ### </OS Utilities>
 
 ### <Development>
