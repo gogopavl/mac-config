@@ -3,7 +3,7 @@
 ### <OS Utilities>
 
 # Reshape, resize and reorder your windows with simple keystrokes
-brew install --cask spectacle
+brew install --cask rectangle
 
 # Your go-to search bar
 brew install --cask raycast
