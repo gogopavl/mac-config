@@ -6,13 +6,16 @@
 brew install --cask spectacle
 
 # Your go-to search bar
-brew install --cask alfred
+brew install --cask raycast
 
 # GIF recorder, awesome for capturing short demos & how-tos
 brew install --cask licecap
 
 # Copy-paste cache
 brew install --cask maccy
+
+# Spotlight for the macOS user interface
+https://www.homerow.app
 
 ### </OS Utilities>
 

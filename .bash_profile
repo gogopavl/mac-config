@@ -14,8 +14,15 @@ alias git-fire="git add . && git commit --amend --no-edit && git rev-parse --abb
 # Alias for python
 alias python=python3
 
-# Show random quote through cowsay
-fortune | cowsay -f tux
+# Alias/function for naming files & folders using casbab (https://github.com/vandot/casbab)
+to() {
+    result=$(casbab "$1" "${@:2}")
+    echo "$result"
+    echo "$result" | pbcopy # Copy to clipboard
+}
+
+# Show message through cowsay
+echo "ΠΑΟΚ ρε!" | cowsay -f tux
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
