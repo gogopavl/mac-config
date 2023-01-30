@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Documentation: https://github.com/raycast/script-commands/tree/master/documentation
+
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Convert
